@@ -1,0 +1,243 @@
+/* Обнуление */
+@import "null.css";
+
+/* Сторонние шрифты  */
+@import "fonts.css";
+/* Шрифты fonts.css : */
+/* Шрифт google Oswald  */
+/* Шрифт Street Letters Demo */
+/* Шрифт 'Chakra Petch' */
+
+body {
+	box-sizing: auto;
+	margin: 0px auto; 
+	padding: 50px;
+	height: auto;
+	font-family: 'Chakra Petch';
+	font-weight: 700;
+    font-style: normal;
+	text-align: center;
+	color: rgb(56, 56, 56);
+}
+
+.wrapper{
+	max-width: 1000px;
+	margin: 5px;
+	overflow: hidden;
+	background-color: brown;
+	box-shadow: 10px 10px 20px rgb(204, 78, 78),-10px -10px 20px rgb(204, 78, 78);
+	border-radius: 20px;
+
+}
+/* эфект слайдера справой стороны рамки при уменьшении страницы до минимального размера */
+.box{
+	min-width: 368px;
+	padding: 10px;
+	background-color: rgba(182, 99, 99, 0.9);
+	border-radius: 17px;
+}
+
+.inside_box{
+	margin: 5px;
+	background-color: rgb(42, 130, 165);
+	border-radius: 16px;
+}
+
+.end_inside_box{
+	padding: 5px;
+	background-color: rgb(238, 248, 252);
+	border-radius: 10px;
+}
+
+h1{
+	padding: 10px 0 10px 0;
+	font-family: 'Oswald',Arial;
+	font-size: 20px;
+	color: rgb(66, 58, 51);
+}
+
+h2 {
+	padding-top: 10px;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: rgb(194, 50, 50);
+}
+
+h3{
+	display: block;
+	overflow: scroll;
+	width: 300px;
+	margin:0 auto;
+	max-width: 400px;
+	font-family: 'Chakra Petch', sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	color: rgb(51, 126, 97);	
+}
+
+p{
+	padding:10px 10px 20px;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 400px;
+	font-size: 20px;
+	text-align: justify;
+	color: rgb(255, 80, 138);
+}
+
+.freid_picture{
+	height: 300px;
+	padding: 0 7%;
+	max-width: 300px;
+	min-width: auto;
+}
+
+
+h1 span{
+	
+	font-family: 'Street Letters Demo',Arial;
+	font-size: 35px;
+	color: rgb(214, 42, 42);
+	font-weight: 900;
+}
+
+.h1p{
+max-width: 350px;
+	font-family: 'Street Letters Demo',Arial;
+	font-size: 30px;
+	color: rgb(42, 238, 163);
+	font-weight: 900;
+	background-color: blueviolet;
+}
+
+/* будет работать font-family Arial , 'Street Letters Demo' font-weight:100; - не подключен */
+.h1e{
+	font-family: 'Street Letters Demo',Arial;
+	font-size: 25px;
+	color: rgb(255, 196, 0);
+	font-weight: 100 ;
+	
+	text-decoration: overline;
+}
+
+.h1i{
+	font-family: 'Chakra Petch', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+    font-style: italic;
+	font-size: 15px;
+	color: rgb(91, 13, 163);
+	text-shadow: 12px 2px 2px rgb(162, 215, 247), -17px 4px 2px rgb(111, 193, 240), -7px 12px 2px rgb(134, 193, 228),8px -11px 2px rgb(93, 186, 240),3px 11px 2px rgb(236, 160, 217),-3px -1px 2px rgb(200, 183, 240),20px -16px 2px rgb(245, 166, 221),28px -7px 2px rgb(233, 217, 126),42px 3px 2px rgb(124, 228, 193),50px -14px 2px rgb(102, 174, 216),0px 0px 10px rgb(236, 214, 214);
+}
+
+.h1d{
+	font-family: 'Oswald';
+}
+
+.h1a{
+	font-family: 'Chakra Petch';
+	font-weight: 600;
+    font-style: italic;
+	font-size: 40px;
+	color: rgb(255, 0, 85);
+	text-decoration: underline;
+	
+}
+
+
+
+.Freid > p > span{
+	font-family: 'Chakra Petch',sans-serif;
+	font-weight: 900;
+    font-style: italic;
+	font-size: 18px;
+	text-decoration: underline;
+	color: rgb(16, 173, 2);
+	text-shadow: 1px 1px 5px  rgb(15, 131, 4),300px -400px 8px rgb(36, 204, 140),200px -300px 5px rgb(233, 248, 18),100px -200px 3px rgb(102, 175, 53),0px -100px 3px rgb(224, 104, 170);
+}
+
+
+#Zigmunt {
+	font-family: 'Street Letters Demo';
+	font-weight: 900;
+    font-style: normal;
+	font-size: 25px;
+	text-decoration: overline;
+	color: rgb(116, 67, 3);
+	text-shadow: 1px 1px 5px  rgb(90, 52, 3),600px -720px 8px rgb(36, 204, 140),500px -650px 3px rgb(39, 158, 112),400px -550px 4px rgb(252, 114, 206),300px -450px 2px rgb(53, 175, 59),200px -350px 5px rgb(233, 248, 18),100px -250px 3px rgb(102, 175, 53);
+}
+
+
+p a{
+	font-family: 'Oswald',sans-serif;
+	font-weight: 900;
+    font-style: italic;
+	font-size: 30px;
+	text-decoration: line-through;
+	color: rgb(57, 34, 158);
+	text-shadow: 1px 1px 5px  rgb(127, 14, 219);
+	text-shadow: 1px 1px 5px  rgb(90, 52, 3);
+}
+	
+	
+[class*="Psychological"] > p span{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 35px;
+	color: rgb(36, 204, 140);
+	text-decoration: none;
+	text-shadow: 1px 1px 5px  rgb(14, 212, 219);
+	text-shadow: 1px 1px 5px  rgb(90, 52, 3),200px -650px 3px rgb(39, 158, 112),100px -550px 4px rgb(252, 114, 206);
+}
+
+#lostFreid{
+	font-family: 'Oswald';
+	font-weight: 900;
+    font-style: normal;
+	font-size: 25px;
+	text-decoration: overline;
+	color: rgb(6, 93, 255);
+}
+
+#prodaction{
+	text-indent: 25px; 
+	letter-spacing: 5px;
+	word-spacing: 15px;
+	color: rgb(66, 58, 51);
+}
+
+#footer > span{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-style: italic;
+	font-size: medium;
+	color: brown;
+}
+
+#footer > span ~ span{
+	font-family: 'Street Letters Demo';
+	font-size: 30px;
+	color: rgb(42, 165, 58);
+	text-align:right;
+}
+
+#footer > span ~ span ~ span{
+	color: rgb(175, 18, 162);
+	font-size: 25px;
+	text-align:right;
+}
+
+#footer{
+	display: block;
+	overflow: scroll;
+	margin: 0 auto;
+	max-width: 100%;
+}
+/* при уменьшении ширины в браузере появляется скрол  */
+#footer > span{
+	display: block;
+	max-width: auto;
+	min-width: 500px;
+	width: auto;
+	height: 150px;
+	margin: 0px -50px 0px 0px;
+	
+}
+
