@@ -9,7 +9,6 @@
 /* Шрифт 'Chakra Petch' */
 
 body {
-	box-sizing: auto;
 	margin: 0px auto; 
 	padding: 50px;
 	height: auto;
@@ -79,7 +78,7 @@ h3{
 p{
 	padding:10px 10px 20px;
 	font-family: 'Oswald',sans-serif;
-	font-weight: 400px;
+	font-weight: 300;
 	font-size: 20px;
 	text-align: justify;
 	color: rgb(255, 80, 138);
@@ -233,7 +232,7 @@ p a{
 /* при уменьшении ширины в браузере появляется скрол  */
 #footer > span{
 	display: block;
-	max-width: auto;
+	max-width: 100%;
 	min-width: 500px;
 	width: auto;
 	height: 150px;
